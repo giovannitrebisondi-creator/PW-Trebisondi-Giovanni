@@ -1,0 +1,101 @@
+/*
+ * File: style.css
+ * Design e Coerenza Cromatica per l'Annual Report (Palette Blu Istituzionale)
+ */
+
+body {
+    /* Font moderno e leggibile (sans-serif) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Spaziatura interlinea standard */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    /* Sfondo neutro, leggermente grigio */
+    background-color: #F8F8F8; 
+}
+.container {
+    /* Larghezza massima per la leggibilità del testo */
+    max-width: 900px;
+    /* Centratura del blocco */
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    /* Ombra per dare profondità (separazione visiva dal background) */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+h1 {
+    /* BLU Istituzionale (#004A8F): Colore principale del testo per l'affidabilità */
+    color: #004A8F; 
+    /* Azzurro Chiaro (#D0E7FF): Sfondo del titolo per enfasi */
+    background-color: #D0E7FF; 
+    padding: 15px 15px;
+    border-radius: 8px;
+    /* Bordo sotto il titolo, rinforza la gerarchia */
+    border-bottom: 5px solid #004A8F; 
+    margin-top: 0;
+    margin-bottom: 30px; 
+    text-align: center;
+}
+h2 {
+    /* BLU Istituzionale per i sottotitoli */
+    color: #004A8F; 
+    margin-top: 35px;
+    font-weight: 700;
+}
+.result-box {
+    /* Sfondo chiaro (#F0FFF0) per isolare i dati chiave */
+    background: #F0FFF0;
+    /* Bordo di accento Azzurro (#0077B6) per la gerarchia visiva */
+    border-left: 6px solid #0077B6; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.result-box strong {
+    /* BLU Istituzionale per l'enfasi sui KPI all'interno dei box */
+    color: #004A8F; 
+    font-size: 1.1em;
+    /* Rende il testo in grassetto un blocco per la spaziatura verticale */
+    display: block;
+    margin-bottom: 5px;
+}
+.download-section {
+    text-align: center;
+    padding: 30px 0;
+    /* Linea di separazione sottile sopra la CTA */
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+.download-btn {
+    display: inline-block;
+    /* BLU Istituzionale per il bottone CTA (Focus sull'azione) */
+    background-color: #004A8F; 
+    color: white;
+    padding: 18px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    /* Abilita le transizioni per l'effetto hover */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    /* Ombra iniziale per l'effetto "bottone tridimensionale" */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.download-btn:hover {
+    /* Cambio colore all'hover per il feedback visivo */
+    background-color: #003061; 
+    /* Spostamento verticale: effetto "sollevamento" (micro-interazione) */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+.author-info {
+    text-align: right;
+    font-style: italic;
+    color: #777;
+    margin-top: 30px;
+    padding-top: 10px;
+    /* Linea di separazione sottile */
+    border-top: 1px solid #eee;
+}
